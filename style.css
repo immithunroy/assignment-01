@@ -12,7 +12,7 @@
     border-radius: 6px;
     font-weight: bold;
     font-size: 16px;
-    curso: pointer;
+    cursor: pointer;
     transition: 0.3s;
 }
 
@@ -31,7 +31,7 @@
     justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 20px;
-    
+
 
 }
 
@@ -108,17 +108,12 @@
 
 .speakers {
     width: 90%;
-    margin:auto;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
 
-.speakers h3 {
-    grid-column: 1 / 3;
-    text-align: center;
-    margin-bottom: 20px;
-}
 
 .speaker {
     height: 500px;
@@ -130,7 +125,7 @@
     align-items: flex-start;
 
     color: rgb(0, 0, 0);
-    text-align:left;
+    text-align: left;
 
     background-size: cover;
     background-position: center;
@@ -173,12 +168,14 @@
     margin-bottom: 30px;
     /* margin-top: 30px; */
 }
+
 .title-price-tag-h1 {
     text-align: center;
     padding: 10px;
     margin-bottom: 10px;
     margin-top: 30px;
 }
+
 .event {
     max-width: 90%;
     margin: auto;
@@ -207,7 +204,7 @@
     color: #38bdf8;
     font-size: 18px;
     margin-bottom: 15px;
-   
+
 }
 
 .price-tag h2 {
@@ -230,18 +227,13 @@
     color: #e2e8f0;
 }
 
-.price-tag:nth-child(4) {
+.price-tag:nth-child {
     background: #38bdf8;
     color: black;
     transform: scale(1.05);
 }
 
 /* AI Section Start */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -340,5 +332,5 @@ footer {
     margin-bottom: 30px;
     background-color: darkgreen !important;
     margin: auto;
-   
+
 }
